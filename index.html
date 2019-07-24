@@ -7,6 +7,7 @@
 <body>
 </br>
 </br>
+<!--
 <div class="container">
 <div id="resumemain" style="background: rgba(28, 28, 28, 0.9); color: white;" class="jumbotron">
 <form name="loginForm">
@@ -35,8 +36,35 @@
 </form>
 
 </div>
-</div>
+</div> -->
 
+<div class="container">
+<div id="resumemain" style="background: rgba(28, 28, 28, 0.9); color: white;" class="jumbotron">
+
+<form name="LoginForm" width="40%" align="center">
+<font size=4><b>Enter ID and Password</b></font></br>
+<input type="text" size=25 placeholder="Enter Username" name="userid" required></br>
+<input type="password" size=25 placeholder="Enter Password" name="pwd" required></br>
+<input type="button" onclick="check(this.form)" value="Login"/>
+<input type="reset" value="Reset"/>
+</form>
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "a" && form.pwd.value == "a")
+{
+    window.location.replace('https://drive.google.com/file/d/16GbQ4UAVfW_6k1JyznGq9dEXWdcId-Wt/preview');
+  }
+ else
+ {
+   alert("Incorrect Username or Password")
+  }
+}
+</script>
+
+</div>
+</div>
 
 </body>
 </html>

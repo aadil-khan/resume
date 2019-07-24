@@ -1,9 +1,9 @@
 function check(form)
 {
 
-if(form.userid.value == "Adil Khan" && form.pwd.value == "Adil@1004")
+if(form.userid.value == "a" && form.pwd.value == "a")
 {
-    window.open('resumedisplay.html', '_self');
+    window.location.replace('https://drive.google.com/file/d/16GbQ4UAVfW_6k1JyznGq9dEXWdcId-Wt/preview');
   }
  else
  {
